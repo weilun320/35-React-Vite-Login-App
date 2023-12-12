@@ -14,7 +14,7 @@ function App() {
 
   return (
     <AuthContext.Provider value={{ token, setToken }}>
-      <BrowserRouter>
+      <BrowserRouter basename="/35-React-Vite-Login-App/">
         <NavBar />
         <Routes>
           <Route element={<Home />} path="/" />
