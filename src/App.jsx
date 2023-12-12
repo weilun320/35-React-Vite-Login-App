@@ -7,7 +7,7 @@ import Login from "./pages/Login"
 import Dashboard from "./pages/Dashboard"
 import RequireAuth from "./components/RequireAuth"
 import Profile from "./pages/Profile"
-import NavBar from "./components/Navbar"
+import NavBar from "./components/NavBar"
 
 function App() {
   const [token, setToken] = useLocalStorage("token", null);
